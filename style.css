@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin-top: 50px;
+  margin-left: 100px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.head img {
+  height: 30px;
+  width: 30px;
+}
+
+.head h2 {
+  font-weight: 700;
+}
+
+.btn-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.edit-div {
+  display: flex;
+  background-color: #3d19bd;
+  height: 40px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.delete-div {
+  display: flex;
+  background-color: #fff;
+  color: #414144;
+  height: 40px;
+  width: 120px;
+  padding: 10px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.edit-div img {
+  height: 15px;
+  width: 15px;
+}
+
+.edit-div p {
+  font-size: 10px;
+  color: #fff;
+}
+
+.delete-div img {
+  height: 15px;
+  width: 15px;
+}
+
+.delete-div p {
+  font-size: 10px;
+  color: #414144;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-div .input {
+  padding: 10px;
+  min-height: 100px;
+  height: 100%;
+  min-width: 300px;
+  width: 100%;
+  border-radius: 3px;
+  color: #414144;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #414144;
+}
+
+@media (max-width: 800px) {
+  body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 187, 233, 1) 100%
+    );
+    margin-top: 20px;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
